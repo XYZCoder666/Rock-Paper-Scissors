@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock paper and scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <div class="header">
+        <h1>Rock paper and scissors</h1>
+      </div>
+      <!-- Game Panel -->
+      <h2>
+        You - <span id="playerScore">0</span>
+        <span id="playerChoice">-- Choice</span>
+      </h2>
+      <div class="player-container" id="player">
+          <img src="rock.png" id="playerRock" onclick="select('Rock')" alt="">
+          <img src="paper.png" id="playerPaper" onclick="select('Paper')" alt="">
+          <img src="scissors.png" id="playerScissors" onclick="select('Scissors')" alt="">
+      </div>
+
+
+      <h2>
+        computer - <span id="computerScore">0</span>
+        <span id="computerChoice">-- Choice</span>
+      </h2>
+      <div class="computer-container" id="computer">
+          <img src="rock.png" id="computerRock" alt="">
+          <img src="paper.png" id="computerPaper" alt="">
+          <img src="scissors.png" id="computerScissors" alt="">
+      </div>
+
+      <img src="reset.png" id="reset" onclick="location.reload()" alt="">
+      <div class="result-container">
+          <h3 id="resultText">You Won!</h3>
+      </div>
+      </div>
+    
+
+    </div>
+    
+    
+   
+
+    <script src="main.js"></script>
+  </body>
+</html>

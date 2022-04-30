@@ -1,0 +1,51 @@
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+    border: none;
+    background: dodgerblue;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.game-container{
+    width: 530px;
+    height: 610px;
+    text-align: center;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.6);
+}
+
+img{
+    width: 80px;
+    margin: 0 10px;
+    background: orange;
+    border: 3px solid black;
+    border-radius: 50px;
+    cursor: grab;
+    
+}
+
+#reset{
+    width: 60px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+h3{
+    font-size: 25px;
+    color: red;
+}
+
+.selected{
+    background: red;
+}
